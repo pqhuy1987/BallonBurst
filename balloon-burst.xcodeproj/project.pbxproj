@@ -1232,7 +1232,7 @@
 				INFOPLIST_FILE = "balloon-burst/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-lz";
-				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio..balloonburst.100;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.balloonburst.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1255,7 +1255,7 @@
 				INFOPLIST_FILE = "balloon-burst/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-lz";
-				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio..balloonburst.100;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.balloonburst.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
