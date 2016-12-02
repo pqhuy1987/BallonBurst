@@ -35,6 +35,8 @@
 		<key>opengles-1</key>
 		<true/>
 	</dict>
+	<key>UIRequiresFullScreen</key>
+	<true/>
 	<key>UIStatusBarHidden</key>
 	<true/>
 </dict>
