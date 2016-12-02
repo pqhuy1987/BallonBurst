@@ -161,20 +161,21 @@ float secondsSinceLastBalloon = 0;
  */
 -(void) initLabels {
     // score display
-    lblScore = [self labelWithString:@"Words Collected: 00/00" fontSize: 30 position: origin];
+    lblScore = [self labelWithString:@"Words Collected: 00/00" fontSize: 20 position: origin];
     CGSize lblSize = lblScore.boundingBox.size;
-    lblScore.position = ccp(lblSize.width/2, windowSize_.height-lblSize.height/2);
-    
+    lblScore.position = ccp(lblSize.width/2, windowSize_.height-40);
+
     // timer display        
-    lblTimer = [self labelWithString:@"Time: 000" fontSize:30 position: origin];
+    lblTimer = [self labelWithString:@"Time: 000" fontSize:20 position: origin];
     lblTimer.position = ccp(windowSize_.width - lblTimer.boundingBox.size.width/2, 
-                            windowSize_.height-lblTimer.boundingBox.size.height/2);
+                            windowSize_.height-40);
     
     lblRound = [self labelWithString:@"Round 1" fontSize:72 position: windowCenter_];
     
     // game over
-    lblGameOver = [self labelWithString:@"Game Over" fontSize:72 
+    lblGameOver = [self labelWithString:@"Game Over" fontSize:50
                                position: ccp(windowCenter_.x, windowCenter_.y + 50)];
+    lblGameOver.position = ccp(windowCenter_.x, windowSize_.height-windowSize_.height/2 + 100);
     lblGameOver.visible = false;
 
 }
